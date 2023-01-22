@@ -1,17 +1,21 @@
-body{
+body {
     background-color: #E5E5E5;
     font-family: "Montserrat";
     padding: 40px;
     font-size: 14px;
     line-height: calc(24 / 14);
 }
+
 .wrapper {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
     margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
-.main_content{
+
+.main_content {
     background-color: #fff;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     color: #11080b;
@@ -20,16 +24,18 @@ body{
 }
 
 aside {
-    background-color:#E0EBFE;
+    background-color: #E0EBFE;
     width: 370px;
     color: #161D2A;
     padding-top: 40px;
 
 }
+
 .sidebar {
     padding: 50px 40px;
 }
-span{
+
+span {
     color: #6D9BF5;
 }
 
@@ -42,18 +48,7 @@ h3 {
     color: #161D2A;
 }
 
-
-/*ul {*/
-/*    padding: 0;*/
-/*    margin-left: 17px;*/
-/*}*/
-
-/*.ol{*/
-/*    font-weight:700;*/
-/*}*/
-
-
-.contact_type{
+.contact_type {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -61,10 +56,12 @@ h3 {
     color: #161D2A;
     margin-right: 6px;
 }
-.contact_item{
+
+.contact_item {
     margin: 0px;
 }
-.contact_num{
+
+.contact_num {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -73,25 +70,168 @@ h3 {
     text-decoration: none;
 }
 
-.contact_email{
+.contact_email {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #2979FF;
 }
-.tech_list,
-.soft_list{
+
+.tech_list {
+    margin: 0;
+    padding: 0 0 0 20px;
+    margin-bottom: 44px;
+}
+
+.soft_list {
     margin: 0;
     padding: 0 0 0 20px;
 }
-.skillslist_item{
+
+.skillslist_item {
     color: #6D9BF5;
 }
-.skillslist_text{
+
+.skillslist_text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #161D2A;
+}
+
+.my_proffesion {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 18px 0;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0 0 28px 0;
+
+}
+
+.my_deskr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 525px;
+    margin-bottom: 64px;
+}
+
+.main_content_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0 0 18px 0;
+}
+
+.projec_item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project_list {
+    padding: 0 0 0 18px;
+    margin: 0;
+}
+.projects_container{
+    margin-bottom: 48px;
+}
+.projecr_item_descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #005FFF;
+}
+.work_experience_container {
+    margin-bottom: 44px;
+}
+.work_experience_position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+}
+.work_experience_place{
+    margin-bottom: 16px;
+}
+.work_time{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 12px 0 8px 0;
+}
+.work_dut{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.work_dut_list{
+    padding: 0 0 0 14px;
+    margin: 0;
+}
+.education_conainer{
+    margin-bottom: 44px;
+}
+.education_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.education_disk{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D9BF5;
+    margin: 0 0 12px 0;
+}
+.education_man {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 12px 0 12px 0;
+}
+.education_dat{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
 }
