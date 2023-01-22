@@ -59,6 +59,7 @@ h3 {
 
 .contact_item {
     margin: 0px;
+
 }
 
 .contact_num {
@@ -151,9 +152,11 @@ h1 {
     padding: 0 0 0 18px;
     margin: 0;
 }
-.projects_container{
+
+.projects_container {
     margin-bottom: 48px;
 }
+
 .projecr_item_descr {
     font-style: normal;
     font-weight: 400;
@@ -161,7 +164,8 @@ h1 {
     line-height: 24px;
     color: #595959;
 }
-.link{
+
+.link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -169,10 +173,12 @@ h1 {
     text-decoration-line: underline;
     color: #005FFF;
 }
+
 .work_experience_container {
     margin-bottom: 44px;
 }
-.work_experience_position{
+
+.work_experience_position {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -180,10 +186,12 @@ h1 {
     color: #000000;
     margin: 0;
 }
-.work_experience_place{
+
+.work_experience_place {
     margin-bottom: 16px;
 }
-.work_time{
+
+.work_time {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -191,35 +199,52 @@ h1 {
     color: #A8A8A8;
     margin: 12px 0 8px 0;
 }
-.work_dut{
+
+.work_dut {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
 }
-.work_dut_list{
+
+.work_dut_list {
     padding: 0 0 0 14px;
     margin: 0;
 }
-.education_conainer{
+
+.education_conainer {
     margin-bottom: 44px;
 }
-.education_title{
+
+.education_title {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
     color: #000000;
 }
-.education_disk{
+
+.education_disk {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #6D9BF5;
     margin: 0 0 12px 0;
+    text-decoration: none;
 }
+
+.kpi {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D9BF5;
+    margin: 0 0 12px 0;
+    text-decoration: none;
+}
+
 .education_man {
     font-style: normal;
     font-weight: 700;
@@ -228,7 +253,8 @@ h1 {
     color: #000000;
     margin: 12px 0 12px 0;
 }
-.education_dat{
+
+.education_dat {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
